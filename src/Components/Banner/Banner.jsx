@@ -18,8 +18,9 @@ const Banner = () => {
           <div id="home" className="lg:px-56 px-10 sm:px-10 lg:py-0 py-28  text-center gap-5 sm:mt-6 lg:text-start flex lg:flex-row flex-col justify-center items-center lg:gap-28 lg:items-center text-white">
                <div className="h-full lg:py-40 flex flex-col justify-center items-center lg:items-start text-white">
                     <h1  data-aos='fade-right' className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[52px] font-semibold mb-8 sm:mb-7 whitespace-nowrap leading-normal ">
-                         HI, Welcome To My Website<br />
-                         <span className="text-fuchsia-500">I Am Mrdul Sarker</span>
+                         HI, Welcome To My ProtFolio<br />
+                         <span  className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[52px] font-semibold mb-8 sm:mb-7 whitespace-nowrap leading-normal ">I Am Mrdul Sarker</span> <br />
+                         <span className="text-fuchsia-500">Junior Web Developer</span>
                     </h1>
                     <p data-aos='fade-left'  className="text-xs sm:text-base md:text-lg lg:text-xl">
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ea eos cum vitae inventore iure incidunt veniam quaerat, magnam assumenda consequatur nemo culpa laborum non voluptatum recusandae. Commodi, velit odit?
@@ -49,4 +50,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
