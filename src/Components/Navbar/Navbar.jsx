@@ -33,7 +33,7 @@ const Navbar = () => {
           <nav>
                <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-6 py-4 bg-slate-900 border-b  border-slate-800">
                     <div className="flex items-center flex-1">
-                         <span className="text-3xl font-bold cursor-pointer">My Portfolio</span>
+                         <span className="text-3xl font-bold cursor-pointer">Portfolio</span>
                     </div>
                     <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
                          <ul className="flex gap-8 text-[18px]">

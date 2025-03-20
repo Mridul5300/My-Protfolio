@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+     @keyframes borderRotate {
+         0% {
+             border: 6px solid rgb(206, 71, 193); /* increased border thickness */
+             border-color: rgb(206, 71, 193);
+             box-shadow: 0 0 100px rgb(206, 71, 193);
+         }
+         25% {
+             border: 6px solid #a3c69a; /* increased border thickness */
+             border-color: #a3c69a;
+             box-shadow: 0 0 100px #a3c69a;
+         }
+         50% {
+             border: 6px solid #f9b656; /* increased border thickness */
+             border-color: #f9b656;
+             box-shadow: 0 0 100px #f9b656;
+         }
+         75% {
+             border: 6px solid #9c4129; /* increased border thickness */
+             border-color: #9c4129;
+             box-shadow: 0 0 100px #9c4129;
+         }
+         100% {
+             border: 6px solid rgb(206, 71, 193); /* increased border thickness */
+             border-color: rgb(206, 71, 193);
+             box-shadow: 0 0 100px  rgb(206, 71, 193);
+         }
+     }
+ 
+     .border-animation {
+         animation: borderRotate 5s linear infinite     
+     }
+ }
+ 
+
 .glow{
      transition: all 0.3s ease-in-out;
 }
